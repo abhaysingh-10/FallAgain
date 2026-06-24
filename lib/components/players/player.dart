@@ -2,6 +2,7 @@ import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flame/collisions.dart';
 import '../platforms/platform.dart';
+import '../hazards/lava.dart';
 
 class Player extends RectangleComponent with CollisionCallbacks {
   //Adding Gravity
@@ -51,6 +52,11 @@ class Player extends RectangleComponent with CollisionCallbacks {
         isOnGround = true;
       }
     }
+    
+    if (other is Lava) {
+      die();
+    }
+
     super.onCollision(intersectionPoints, other);
   }
 
@@ -59,5 +65,10 @@ class Player extends RectangleComponent with CollisionCallbacks {
     if (isOnGround) {
       velocity.y = -500;
     }
+  }
+
+  void die() {
+    position = Vector2(400, 0);
+    velocity = Vector2.zero();
   }
 }

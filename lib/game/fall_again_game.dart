@@ -3,7 +3,7 @@ import 'package:flame/events.dart';
 import 'package:flame/game.dart';
 import '../components/players/player.dart';
 import 'package:flame/input.dart';
-import '../components/platforms/platform.dart';
+import '../levels/level_manager.dart';
 import 'package:flame/collisions.dart';
 
 class FallAgainGame extends FlameGame with TapDetector, HasCollisionDetection {
@@ -18,12 +18,7 @@ class FallAgainGame extends FlameGame with TapDetector, HasCollisionDetection {
     //starting position (center)
     player.position = Vector2(400, 0);
 
-    //platform
-    final ground = Platform(
-      position: Vector2(0, 300),
-      size: Vector2(10000, 10),
-    );
-    world.add(ground);
+    world.add(LevelManager());
 
     world.add(player);
 
