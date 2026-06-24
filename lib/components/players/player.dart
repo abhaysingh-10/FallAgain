@@ -1,7 +1,9 @@
 import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
+import 'package:flame/collisions.dart';
+import '../platforms/platform.dart';
 
-class Player extends RectangleComponent {
+class Player extends RectangleComponent with CollisionCallbacks {
   //Adding Gravity
   final double gravity = 800;
   Vector2 velocity = Vector2.zero();
@@ -9,12 +11,19 @@ class Player extends RectangleComponent {
   //horizontal speed movement
   final double moveSpeed = 300;
 
+  bool isOnGround = false;
+
 //player
   Player()
       : super(
           size: Vector2(50, 50),
           paint: Paint()..color = Colors.blue,
         );
+
+  @override
+  Future<void> onLoad() async {
+    add(RectangleHitbox());
+  }
 
   @override
   void update(double dt) {
@@ -30,18 +39,24 @@ class Player extends RectangleComponent {
     //horizontal Movement
     position.x += velocity.x * dt;
 
-    // ground layer
-    if (position.y >= 300) {
-      position.y = 300;
-      velocity.y = 0;
+    isOnGround = false;
+  }
+
+  @override
+  void onCollision(Set<Vector2> intersectionPoints, PositionComponent other) {
+    if (other is Platform) {
+      if (velocity.y > 0) {
+        velocity.y = 0;
+        position.y = other.position.y - size.y;
+        isOnGround = true;
+      }
     }
+    super.onCollision(intersectionPoints, other);
   }
 
   // jump
   void jump() {
-    
-    if (position.y >= 300) {
-
+    if (isOnGround) {
       velocity.y = -500;
     }
   }
