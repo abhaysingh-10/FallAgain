@@ -1,9 +1,11 @@
 import 'package:flame/components.dart';
+import 'package:flame/events.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 import '../components/players/player.dart';
+import 'package:flame/input.dart';
 
-class FallAgainGame extends FlameGame {
+class FallAgainGame extends FlameGame with TapDetector {
   late Player player;
   @override
   Future<void> onLoad() async {
@@ -17,8 +19,12 @@ class FallAgainGame extends FlameGame {
 
     world.add(player);
 
-
     //camera follow the player
     camera.follow(player);
+  }
+
+  @override
+  void onTapDown(TapDownInfo info) {
+    player.jump();
   }
 }

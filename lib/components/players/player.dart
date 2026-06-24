@@ -36,4 +36,13 @@ class Player extends RectangleComponent {
       velocity.y = 0;
     }
   }
+
+  // jump
+  void jump() {
+    
+    if (position.y >= 300) {
+
+      velocity.y = -500;
+    }
+  }
 }
