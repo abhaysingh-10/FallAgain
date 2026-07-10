@@ -1,19 +1,19 @@
 import 'package:flame/components.dart';
 import '../components/platforms/platform.dart';
+import '../components/hazards/lava.dart';
 
 class LevelManager extends Component {
   @override
   Future<void> onLoad() async {
     
-    // The Starting Floor (So the player doesn't instantly fall to their death)
-    add(
-      Platform(
-        position: Vector2(0, 300),
-        size: Vector2(1000, 20), // 1000 pixels wide
-      ),
-    );
+    // The Starting Floor
+    add(Platform(position: Vector2(0, 300), size: Vector2(1000, 20)));
 
-    // This is where we will build the gaps and fake traps you drew!
+    // The Lava Pit
+    add(Lava(position: Vector2(1000, 300), size: Vector2(400, 20)));
+
+    // The Safe Landing Zone
+    add(Platform(position: Vector2(1400, 300), size: Vector2(1000, 20)));
 
   }
 }
