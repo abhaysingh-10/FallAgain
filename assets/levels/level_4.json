@@ -1,0 +1,86 @@
+{
+  "levelNumber": 4,
+  "name": "Watch Your Head",
+  "startPosition": {
+    "x": 100,
+    "y": 250
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 400,
+      "width": 600,
+      "height": 40
+    },
+    {
+      "x": 700,
+      "y": 350,
+      "width": 300,
+      "height": 40
+    },
+    {
+      "x": 1100,
+      "y": 400,
+      "width": 600,
+      "height": 40
+    }
+  ],
+  "lava": [
+    {
+      "x": 600,
+      "y": 450,
+      "width": 500,
+      "height": 50
+    }
+  ],
+  "spikes": [],
+  "checkpoints": [
+    {
+      "x": 500,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "coins": [
+    {
+      "x": 250,
+      "y": 320
+    },
+    {
+      "x": 800,
+      "y": 250
+    },
+    {
+      "x": 1250,
+      "y": 320
+    }
+  ],
+  "fallingHazards": [
+    {
+      "x": 350,
+      "y": 150,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "x": 900,
+      "y": 100,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "x": 1400,
+      "y": 150,
+      "width": 50,
+      "height": 50
+    }
+  ],
+  "hiddenSpikes": [],
+  "finishFlag": {
+    "x": 1600,
+    "y": 320,
+    "width": 40,
+    "height": 80
+  }
+}

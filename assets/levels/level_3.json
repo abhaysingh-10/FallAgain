@@ -1,0 +1,86 @@
+{
+  "levelNumber": 3,
+  "name": "Hidden Danger",
+  "startPosition": {
+    "x": 100,
+    "y": 250
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 400,
+      "width": 700,
+      "height": 40
+    },
+    {
+      "x": 800,
+      "y": 300,
+      "width": 300,
+      "height": 40
+    },
+    {
+      "x": 1200,
+      "y": 400,
+      "width": 600,
+      "height": 40
+    }
+  ],
+  "lava": [
+    {
+      "x": 700,
+      "y": 450,
+      "width": 500,
+      "height": 50
+    }
+  ],
+  "spikes": [],
+  "checkpoints": [
+    {
+      "x": 600,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "coins": [
+    {
+      "x": 300,
+      "y": 300
+    },
+    {
+      "x": 950,
+      "y": 200
+    },
+    {
+      "x": 1350,
+      "y": 300
+    }
+  ],
+  "fallingHazards": [],
+  "hiddenSpikes": [
+    {
+      "x": 400,
+      "y": 370,
+      "width": 30,
+      "height": 30
+    },
+    {
+      "x": 1000,
+      "y": 270,
+      "width": 30,
+      "height": 30
+    },
+    {
+      "x": 1450,
+      "y": 370,
+      "width": 30,
+      "height": 30
+    }
+  ],
+  "finishFlag": {
+    "x": 1700,
+    "y": 320,
+    "width": 40,
+    "height": 80
+  }
+}

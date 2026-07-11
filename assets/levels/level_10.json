@@ -1,0 +1,124 @@
+{
+  "levelNumber": 10,
+  "name": "Cavern Collapser",
+  "startPosition": {
+    "x": 100,
+    "y": 250
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 400,
+      "width": 400,
+      "height": 40
+    },
+    {
+      "x": 510,
+      "y": 350,
+      "width": 140,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 760,
+      "y": 315,
+      "width": 140,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 900,
+      "y": 400,
+      "width": 160,
+      "height": 40
+    },
+    {
+      "x": 1170,
+      "y": 280,
+      "width": 140,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 1420,
+      "y": 350,
+      "width": 140,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 1560,
+      "y": 400,
+      "width": 300,
+      "height": 40
+    }
+  ],
+  "lava": [
+    {
+      "x": 400,
+      "y": 450,
+      "width": 160,
+      "height": 50
+    },
+    {
+      "x": 650,
+      "y": 450,
+      "width": 160,
+      "height": 50
+    },
+    {
+      "x": 1060,
+      "y": 450,
+      "width": 160,
+      "height": 50
+    },
+    {
+      "x": 1310,
+      "y": 450,
+      "width": 160,
+      "height": 50
+    }
+  ],
+  "spikes": [
+    {
+      "x": 815.0,
+      "y": 285,
+      "width": 30,
+      "height": 30
+    }
+  ],
+  "checkpoints": [
+    {
+      "x": 960,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "coins": [
+    {
+      "x": 580.0,
+      "y": 280
+    },
+    {
+      "x": 830.0,
+      "y": 245
+    },
+    {
+      "x": 1240.0,
+      "y": 210
+    },
+    {
+      "x": 1490.0,
+      "y": 280
+    }
+  ],
+  "fallingHazards": [],
+  "hiddenSpikes": [],
+  "finishFlag": {
+    "x": 1710,
+    "y": 320,
+    "width": 40,
+    "height": 80
+  }
+}

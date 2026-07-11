@@ -1,0 +1,75 @@
+{
+  "levelNumber": 5,
+  "name": "The Illusion",
+  "startPosition": {
+    "x": 100,
+    "y": 250
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 400,
+      "width": 500,
+      "height": 40
+    },
+    {
+      "x": 600,
+      "y": 350,
+      "width": 150,
+      "height": 40,
+      "isFake": true
+    },
+    {
+      "x": 850,
+      "y": 300,
+      "width": 150,
+      "height": 40,
+      "isFake": true
+    },
+    {
+      "x": 1100,
+      "y": 400,
+      "width": 600,
+      "height": 40
+    }
+  ],
+  "lava": [
+    {
+      "x": 500,
+      "y": 450,
+      "width": 600,
+      "height": 50
+    }
+  ],
+  "spikes": [],
+  "checkpoints": [
+    {
+      "x": 400,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "coins": [
+    {
+      "x": 670,
+      "y": 250
+    },
+    {
+      "x": 920,
+      "y": 200
+    },
+    {
+      "x": 1200,
+      "y": 320
+    }
+  ],
+  "fallingHazards": [],
+  "hiddenSpikes": [],
+  "finishFlag": {
+    "x": 1600,
+    "y": 320,
+    "width": 40,
+    "height": 80
+  }
+}

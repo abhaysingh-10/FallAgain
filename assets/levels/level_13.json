@@ -1,0 +1,189 @@
+{
+  "levelNumber": 13,
+  "name": "Lava Castle Keep",
+  "startPosition": {
+    "x": 100,
+    "y": 250
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 400,
+      "width": 400,
+      "height": 40
+    },
+    {
+      "x": 510,
+      "y": 350,
+      "width": 140,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 764,
+      "y": 315,
+      "width": 137,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 901,
+      "y": 400,
+      "width": 160,
+      "height": 40
+    },
+    {
+      "x": 1179,
+      "y": 280,
+      "width": 134,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 1435,
+      "y": 350,
+      "width": 131,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 1566,
+      "y": 400,
+      "width": 160,
+      "height": 40
+    },
+    {
+      "x": 1852,
+      "y": 315,
+      "width": 128,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 2110,
+      "y": 280,
+      "width": 125,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 2235,
+      "y": 400,
+      "width": 300,
+      "height": 40
+    }
+  ],
+  "lava": [
+    {
+      "x": 400,
+      "y": 450,
+      "width": 160,
+      "height": 50
+    },
+    {
+      "x": 650,
+      "y": 450,
+      "width": 164,
+      "height": 50
+    },
+    {
+      "x": 1061,
+      "y": 450,
+      "width": 168,
+      "height": 50
+    },
+    {
+      "x": 1313,
+      "y": 450,
+      "width": 172,
+      "height": 50
+    },
+    {
+      "x": 1726,
+      "y": 450,
+      "width": 176,
+      "height": 50
+    },
+    {
+      "x": 1980,
+      "y": 450,
+      "width": 180,
+      "height": 50
+    }
+  ],
+  "spikes": [
+    {
+      "x": 817.5,
+      "y": 285,
+      "width": 30,
+      "height": 30
+    },
+    {
+      "x": 1485.5,
+      "y": 320,
+      "width": 30,
+      "height": 30
+    },
+    {
+      "x": 2157.5,
+      "y": 250,
+      "width": 30,
+      "height": 30
+    }
+  ],
+  "checkpoints": [
+    {
+      "x": 961,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "x": 1626,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "coins": [
+    {
+      "x": 580.0,
+      "y": 280
+    },
+    {
+      "x": 832.5,
+      "y": 245
+    },
+    {
+      "x": 1246.0,
+      "y": 210
+    },
+    {
+      "x": 1500.5,
+      "y": 280
+    },
+    {
+      "x": 1916.0,
+      "y": 245
+    },
+    {
+      "x": 2172.5,
+      "y": 210
+    }
+  ],
+  "fallingHazards": [],
+  "hiddenSpikes": [
+    {
+      "x": 1231.0,
+      "y": 250,
+      "width": 30,
+      "height": 30
+    }
+  ],
+  "finishFlag": {
+    "x": 2385,
+    "y": 320,
+    "width": 40,
+    "height": 80
+  }
+}

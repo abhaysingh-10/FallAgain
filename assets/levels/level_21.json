@@ -1,0 +1,430 @@
+{
+  "levelNumber": 21,
+  "name": "Super Precision",
+  "startPosition": {
+    "x": 100,
+    "y": 250
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 400,
+      "width": 400,
+      "height": 40
+    },
+    {
+      "x": 515,
+      "y": 350,
+      "width": 150,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 785,
+      "y": 315,
+      "width": 147,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 1057,
+      "y": 280,
+      "width": 144,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 1201,
+      "y": 400,
+      "width": 160,
+      "height": 40
+    },
+    {
+      "x": 1491,
+      "y": 350,
+      "width": 141,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 1767,
+      "y": 315,
+      "width": 138,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 2045,
+      "y": 280,
+      "width": 135,
+      "height": 40,
+      "isFake": true
+    },
+    {
+      "x": 2180,
+      "y": 400,
+      "width": 160,
+      "height": 40
+    },
+    {
+      "x": 2485,
+      "y": 350,
+      "width": 132,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 2767,
+      "y": 315,
+      "width": 129,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 3051,
+      "y": 280,
+      "width": 126,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 3177,
+      "y": 400,
+      "width": 160,
+      "height": 40
+    },
+    {
+      "x": 3497,
+      "y": 350,
+      "width": 123,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 3785,
+      "y": 315,
+      "width": 120,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 4075,
+      "y": 280,
+      "width": 120,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 4195,
+      "y": 400,
+      "width": 160,
+      "height": 40
+    },
+    {
+      "x": 4530,
+      "y": 350,
+      "width": 120,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 4830,
+      "y": 315,
+      "width": 120,
+      "height": 40,
+      "isFake": false
+    },
+    {
+      "x": 4950,
+      "y": 400,
+      "width": 300,
+      "height": 40
+    }
+  ],
+  "lava": [
+    {
+      "x": 400,
+      "y": 450,
+      "width": 165,
+      "height": 50
+    },
+    {
+      "x": 665,
+      "y": 450,
+      "width": 170,
+      "height": 50
+    },
+    {
+      "x": 932,
+      "y": 450,
+      "width": 175,
+      "height": 50
+    },
+    {
+      "x": 1361,
+      "y": 450,
+      "width": 180,
+      "height": 50
+    },
+    {
+      "x": 1632,
+      "y": 450,
+      "width": 185,
+      "height": 50
+    },
+    {
+      "x": 1905,
+      "y": 450,
+      "width": 190,
+      "height": 50
+    },
+    {
+      "x": 2340,
+      "y": 450,
+      "width": 195,
+      "height": 50
+    },
+    {
+      "x": 2617,
+      "y": 450,
+      "width": 200,
+      "height": 50
+    },
+    {
+      "x": 2896,
+      "y": 450,
+      "width": 205,
+      "height": 50
+    },
+    {
+      "x": 3337,
+      "y": 450,
+      "width": 210,
+      "height": 50
+    },
+    {
+      "x": 3620,
+      "y": 450,
+      "width": 215,
+      "height": 50
+    },
+    {
+      "x": 3905,
+      "y": 450,
+      "width": 220,
+      "height": 50
+    },
+    {
+      "x": 4355,
+      "y": 450,
+      "width": 225,
+      "height": 50
+    },
+    {
+      "x": 4650,
+      "y": 450,
+      "width": 230,
+      "height": 50
+    }
+  ],
+  "spikes": [
+    {
+      "x": 843.5,
+      "y": 285,
+      "width": 30,
+      "height": 30,
+      "isMoving": true,
+      "range": 48.5,
+      "speed": 110
+    },
+    {
+      "x": 1546.5,
+      "y": 320,
+      "width": 30,
+      "height": 30,
+      "isMoving": true,
+      "range": 45.5,
+      "speed": 110
+    },
+    {
+      "x": 2097.5,
+      "y": 250,
+      "width": 30,
+      "height": 30,
+      "isMoving": true,
+      "range": 42.5,
+      "speed": 110
+    },
+    {
+      "x": 2816.5,
+      "y": 285,
+      "width": 30,
+      "height": 30,
+      "isMoving": true,
+      "range": 39.5,
+      "speed": 110
+    },
+    {
+      "x": 3543.5,
+      "y": 320,
+      "width": 30,
+      "height": 30,
+      "isMoving": true,
+      "range": 36.5,
+      "speed": 110
+    },
+    {
+      "x": 4120.0,
+      "y": 250,
+      "width": 30,
+      "height": 30,
+      "isMoving": true,
+      "range": 35.0,
+      "speed": 110
+    },
+    {
+      "x": 4875.0,
+      "y": 285,
+      "width": 30,
+      "height": 30,
+      "isMoving": true,
+      "range": 35.0,
+      "speed": 110
+    }
+  ],
+  "checkpoints": [
+    {
+      "x": 1261,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "x": 2240,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "x": 3237,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "x": 4255,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "coins": [
+    {
+      "x": 590.0,
+      "y": 280
+    },
+    {
+      "x": 858.5,
+      "y": 245
+    },
+    {
+      "x": 1129.0,
+      "y": 210
+    },
+    {
+      "x": 1561.5,
+      "y": 280
+    },
+    {
+      "x": 1836.0,
+      "y": 245
+    },
+    {
+      "x": 2112.5,
+      "y": 210
+    },
+    {
+      "x": 2551.0,
+      "y": 280
+    },
+    {
+      "x": 2831.5,
+      "y": 245
+    },
+    {
+      "x": 3114.0,
+      "y": 210
+    },
+    {
+      "x": 3558.5,
+      "y": 280
+    },
+    {
+      "x": 3845.0,
+      "y": 245
+    },
+    {
+      "x": 4135.0,
+      "y": 210
+    },
+    {
+      "x": 4590.0,
+      "y": 280
+    },
+    {
+      "x": 4890.0,
+      "y": 245
+    }
+  ],
+  "fallingHazards": [
+    {
+      "x": 570.0,
+      "y": 130,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "x": 1109.0,
+      "y": 60,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "x": 1816.0,
+      "y": 95,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "x": 2531.0,
+      "y": 130,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "x": 3094.0,
+      "y": 60,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "x": 3825.0,
+      "y": 95,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "x": 4570.0,
+      "y": 130,
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "hiddenSpikes": [],
+  "finishFlag": {
+    "x": 5100,
+    "y": 320,
+    "width": 40,
+    "height": 80
+  }
+}

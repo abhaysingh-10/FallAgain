@@ -1,0 +1,86 @@
+{
+  "levelNumber": 2,
+  "name": "Jump of Faith",
+  "startPosition": {
+    "x": 100,
+    "y": 250
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 400,
+      "width": 500,
+      "height": 40
+    },
+    {
+      "x": 600,
+      "y": 300,
+      "width": 300,
+      "height": 40
+    },
+    {
+      "x": 1000,
+      "y": 200,
+      "width": 200,
+      "height": 40
+    },
+    {
+      "x": 1300,
+      "y": 400,
+      "width": 500,
+      "height": 40
+    }
+  ],
+  "lava": [
+    {
+      "x": 500,
+      "y": 450,
+      "width": 800,
+      "height": 50
+    }
+  ],
+  "spikes": [
+    {
+      "x": 300,
+      "y": 370,
+      "width": 30,
+      "height": 30
+    },
+    {
+      "x": 750,
+      "y": 270,
+      "width": 30,
+      "height": 30
+    }
+  ],
+  "checkpoints": [
+    {
+      "x": 1100,
+      "y": 160,
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "coins": [
+    {
+      "x": 200,
+      "y": 300
+    },
+    {
+      "x": 750,
+      "y": 150
+    },
+    {
+      "x": 1400,
+      "y": 300
+    }
+  ],
+  "fallingHazards": [],
+  "hiddenSpikes": [],
+  "finishFlag": {
+    "x": 1650,
+    "y": 320,
+    "width": 40,
+    "height": 80
+  }
+}

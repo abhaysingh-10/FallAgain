@@ -1,0 +1,74 @@
+{
+  "levelNumber": 1,
+  "name": "The Beginning",
+  "startPosition": {
+    "x": 100,
+    "y": 250
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 400,
+      "width": 800,
+      "height": 40
+    },
+    {
+      "x": 900,
+      "y": 300,
+      "width": 200,
+      "height": 40
+    },
+    {
+      "x": 1200,
+      "y": 400,
+      "width": 600,
+      "height": 40
+    }
+  ],
+  "lava": [
+    {
+      "x": 800,
+      "y": 450,
+      "width": 400,
+      "height": 50
+    }
+  ],
+  "spikes": [
+    {
+      "x": 500,
+      "y": 370,
+      "width": 30,
+      "height": 30
+    }
+  ],
+  "checkpoints": [
+    {
+      "x": 700,
+      "y": 360,
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "coins": [
+    {
+      "x": 300,
+      "y": 300
+    },
+    {
+      "x": 950,
+      "y": 200
+    },
+    {
+      "x": 1400,
+      "y": 300
+    }
+  ],
+  "fallingHazards": [],
+  "hiddenSpikes": [],
+  "finishFlag": {
+    "x": 1700,
+    "y": 320,
+    "width": 40,
+    "height": 80
+  }
+}
