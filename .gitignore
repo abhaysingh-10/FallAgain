@@ -1,5 +1,8 @@
 # Custom folders
 context/
+.agents/
+.Agents/
+
 
 # Miscellaneous
 *.class
