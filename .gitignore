@@ -3,7 +3,6 @@ context/
 .agents/
 .Agents/
 
-
 # Miscellaneous
 *.class
 *.log
