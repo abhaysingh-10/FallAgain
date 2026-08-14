@@ -11,12 +11,13 @@ Navigate through levels, jump across platforms, avoid hazards, and gather collec
 ## 📸 Screenshots & Gameplay
 
 ### Gameplay Recording
-<video src="photos/Screen%20Recording%202026-08-14%20at%203.09.52%E2%80%AFPM.mov" width="600" controls></video>
+[🎥 Click here to watch the Gameplay Video](photos/Screen%20Recording%202026-08-14%20at%203.09.52%E2%80%AFPM.mov)
+*(Note: `.mov` files may not autoplay in some local Markdown previewers, but they will work correctly once uploaded to GitHub or when downloaded!)*
 
 ### Screenshots
 | Main Menu / UI | Gameplay 1 | Gameplay 2 |
 | :---: | :---: | :---: |
-| <img src="photos/Simulator%20Screenshot%20-%20iPhone%2017%20-%202026-08-14%20at%2014.26.43.png" width="250" /> | <img src="photos/Simulator%20Screenshot%20-%20iPhone%2017%20-%202026-08-14%20at%2014.27.07.png" width="250" /> | <img src="photos/Simulator%20Screenshot%20-%20iPhone%2017%20-%202026-08-14%20at%2014.27.17.png" width="250" /> |
+| <img src="photos/Simulator%20Screenshot%20-%20iPhone%2017%20-%202026-08-14%20at%2014.26.43.png" width="250" /> | <img src="photos/Simulator%20Screenshot%20-%20iPhone%2017%20-%202026-08-14%20at%2014.27.07.png" width="250" /> | <img src="photos/image.png" width="250" /> |
 | <img src="photos/Simulator%20Screenshot%20-%20iPhone%2017%20-%202026-08-14%20at%2015.11.28.png" width="250" /> | <img src="photos/Simulator%20Screenshot%20-%20iPhone%2017%20-%202026-08-14%20at%2015.11.35.png" width="250" /> | <img src="photos/Simulator%20Screenshot%20-%20iPhone%2017%20-%202026-08-14%20at%2014.27.34.png" width="250" /> |
 
 ---
