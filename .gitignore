@@ -2,6 +2,7 @@
 context/
 .agents/
 .Agents/
+/ss/
 
 # Miscellaneous
 *.class
