@@ -1,4 +1,4 @@
-# Fall Again 🎮
+# Fall Again 
 
 A 2D platformer game built with [Flutter](https://flutter.dev/) and the [Flame Engine](https://flame-engine.org/). 
 
@@ -8,11 +8,8 @@ Navigate through levels, jump across platforms, avoid hazards, and gather collec
 
 ---
 
-## 📸 Screenshots & Gameplay
+##  Screenshots & Gameplay
 
-### Gameplay Recording
-[🎥 Click here to watch the Gameplay Video](photos/Screen%20Recording%202026-08-14%20at%203.09.52%E2%80%AFPM.mov)
-*(Note: `.mov` files may not autoplay in some local Markdown previewers, but they will work correctly once uploaded to GitHub or when downloaded!)*
 
 ### Screenshots
 | Main Menu / UI | Gameplay 1 | Gameplay 2 |
@@ -22,7 +19,7 @@ Navigate through levels, jump across platforms, avoid hazards, and gather collec
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Built with Flame:** Physics-based 2D movement and collision detection.
 - **Multiple Levels:** Choose and play through beautifully designed levels.
@@ -34,7 +31,7 @@ Navigate through levels, jump across platforms, avoid hazards, and gather collec
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework:** [Flutter](https://flutter.dev/) (Dart)
 - **Game Engine:** [Flame](https://pub.dev/packages/flame)
@@ -44,7 +41,7 @@ Navigate through levels, jump across platforms, avoid hazards, and gather collec
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - [Flutter SDK](https://docs.flutter.dev/get-started/install) (Version 3.0.0 or higher)
@@ -71,7 +68,7 @@ Navigate through levels, jump across platforms, avoid hazards, and gather collec
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 - `lib/game/`: Contains the core Flame game loop (`FallAgainGame`).
 - `lib/components/`: Game entities like `players`, `platforms`, `hazards`, `collectibles`, and `background`.
