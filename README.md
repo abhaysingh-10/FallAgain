@@ -112,10 +112,8 @@ lib/
 - [ ] Global leaderboard
 - [ ] Custom level editor
 
----
+---  
 
 ## Acknowledgements
 
 This project is a personal recreation inspired by **Level Devil** — a rage-baiting platformer known for its deliberately unfair traps and trick-based level design. Fall Again pays homage to that same "one wrong step and you're doomed" philosophy, reimagined with a retro-futuristic aesthetic in Flutter and Flame.
-
-This is a fan-inspired independent project and is not affiliated with or endorsed by the creators of Level Devil.
